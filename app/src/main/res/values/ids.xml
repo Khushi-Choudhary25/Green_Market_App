@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="textViewSubtitle" type="id" />
+    <item name="inputPincode" type="id" />
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="khushi.example.greenmarket.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_crop_advisory"
+        android:name="khushi.example.greenmarket.ui.cropadvisory.CropAdvisoryFragment"
+        android:label="Crop Advisory"
+        tools:layout="@layout/fragment_crop_advisory" />
+
+    <fragment
+        android:id="@+id/nav_weather_forecast"
+        android:name="khushi.example.greenmarket.ui.weather.WeatherForecastFragment"
+        android:label="Weather Forecast"
+        tools:layout="@layout/fragment_weather_forecast" />
+
+    <fragment
+        android:id="@+id/nav_market_trends"
+        android:name="khushi.example.greenmarket.ui.trends.MarketTrendsFragment"
+        android:label="Market Trends"
+        tools:layout="@layout/fragment_market_trends" />
+
+</navigation>

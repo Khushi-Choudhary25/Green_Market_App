@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1004001206550",
+    "project_id": "green-market-4ee1b",
+    "storage_bucket": "green-market-4ee1b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1004001206550:android:6d2524e499c13a5247b037",
+        "android_client_info": {
+          "package_name": "khushi.example.greenmarket"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBY0HC_FSGbaxAAjoZUQ72pG5rXODjGcwE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

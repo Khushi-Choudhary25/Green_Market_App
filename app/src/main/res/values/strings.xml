@@ -1,0 +1,177 @@
+<resources>
+    <string name="app_name">Green Market</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="select_farming_type">Select Farming Type <font color='red'>*</font></string>
+    <string name="select_category">Select Category <font color='red'>*</font></string>
+    <string name="select_subcategory">Select Subcategory <font color='red'>*</font></string>
+    <string name="select_variety">Select Variety <font color='red'>*</font></string>
+    <string name="quantity_with_unit">Total Quantity With Unit <font color='red'>*</font></string>
+    <string name="address">Address <font color='red'>*</font></string>
+    <string name="enter_base_price">Enter Base Price (₹) <font color='red'>*</font></string>
+    <string name="expected_delivery">Expected Delivery Time (in days) <font color='red'>*</font></string>
+    <string name="upload_images">Upload Product Images <font color='red'>*</font></string>
+    <string name="product_description">Product Description <font color='red'>*</font></string>
+
+
+
+
+    <string-array name="user_roles">
+        <item>Farmer</item>
+        <item>Consumer</item>
+        <item>Admin</item>
+    </string-array>
+
+
+    <string name="user_type">Select User Type</string>
+    <string name="state">Select State</string>
+
+
+    <string-array name="user_types">
+        <item>Farmer</item>
+        <item>Consumer</item>
+        <item>Retailer</item>
+    </string-array>
+
+
+    <string-array name="indian_states">
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chhattisgarh</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Odisha</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Telangana</item>
+        <item>Tripura</item>
+        <item>Uttar Pradesh</item>
+        <item>Uttarakhand</item>
+        <item>West Bengal</item>
+    </string-array>
+
+    <string-array name="farming_types">
+        <item>Organic</item>
+        <item>Inorganic</item>
+    </string-array>
+
+    <string-array name="delivery_days">
+        <item>1 day</item>
+        <item>2 days</item>
+        <item>3 days</item>
+        <item>4 days</item>
+        <item>5 days</item>
+        <item>6 days</item>
+        <item>7 days</item>
+        <item>8 days</item>
+        <item>9 days</item>
+        <item>10 days</item>
+        <item>11 days</item>
+        <item>12 days</item>
+        <item>13 days</item>
+        <item>14 days</item>
+        <item>15 days</item>
+        <item>16 days</item>
+        <item>17 days</item>
+        <item>18 days</item>
+        <item>19 days</item>
+        <item>20 days</item>
+        <item>21 days</item>
+        <item>22 days</item>
+        <item>23 days</item>
+        <item>24 days</item>
+        <item>25 days</item>
+        <item>26 days</item>
+        <item>27 days</item>
+        <item>28 days</item>
+        <item>29 days</item>
+        <item>30 days</item>
+        <item>31 days</item>
+        <item>32 days</item>
+        <item>33 days</item>
+        <item>34 days</item>
+        <item>35 days</item>
+        <item>36 days</item>
+        <item>37 days</item>
+        <item>38 days</item>
+        <item>39 days</item>
+        <item>40 days</item>
+        <item>41 days</item>
+        <item>42 days</item>
+        <item>43 days</item>
+        <item>44 days</item>
+        <item>45 days</item>
+        <item>46 days</item>
+        <item>47 days</item>
+        <item>48 days</item>
+        <item>49 days</item>
+        <item>50 days</item>
+        <item>51 days</item>
+        <item>52 days</item>
+        <item>53 days</item>
+        <item>54 days</item>
+        <item>55 days</item>
+        <item>56 days</item>
+        <item>57 days</item>
+        <item>58 days</item>
+        <item>59 days</item>
+        <item>60 days</item>
+        <item>61 days</item>
+        <item>62 days</item>
+        <item>63 days</item>
+        <item>64 days</item>
+        <item>65 days</item>
+        <item>66 days</item>
+        <item>67 days</item>
+        <item>68 days</item>
+        <item>69 days</item>
+        <item>70 days</item>
+        <item>71 days</item>
+        <item>72 days</item>
+        <item>73 days</item>
+        <item>74 days</item>
+        <item>75 days</item>
+        <item>76 days</item>
+        <item>77 days</item>
+        <item>78 days</item>
+        <item>79 days</item>
+        <item>80 days</item>
+        <item>81 days</item>
+        <item>82 days</item>
+        <item>83 days</item>
+        <item>84 days</item>
+        <item>85 days</item>
+        <item>86 days</item>
+        <item>87 days</item>
+        <item>88 days</item>
+        <item>89 days</item>
+        <item>90 days</item>
+    </string-array>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

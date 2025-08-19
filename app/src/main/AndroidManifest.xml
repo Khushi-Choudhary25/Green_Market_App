@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="khushi.example.greenmarket">
+
+    <!-- Required Permissions for OTP and Internet -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"
+        tools:ignore="PermissionImpliesUnsupportedChromeOsHardware" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_SMS"
+        tools:ignore="PermissionImpliesUnsupportedChromeOsHardware" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GreenMarket"
+        tools:targetApi="31">
+
+        <!-- Splash Screen - This will be the launcher screen -->
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.GreenMarket.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Language Selection Activity -->
+        <activity
+            android:name=".LanguageSelectionActivity"
+            android:exported="true"
+            android:theme="@style/Theme.GreenMarket.NoActionBar" />
+
+        <!-- Login Activity -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"
+            android:theme="@style/Theme.GreenMarket.NoActionBar" />
+
+        <!-- Forgot Password Activity -->
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:exported="true"
+            android:theme="@style/Theme.GreenMarket.NoActionBar" />
+
+        <!-- Signup Activity -->
+        <activity
+            android:name=".SignupActivity"
+            android:exported="true"
+            android:theme="@style/Theme.GreenMarket.NoActionBar" />
+
+        <!-- Main Activity - This opens after splash -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.GreenMarket.NoActionBar" />
+
+        <!-- OTP Activity (NEW added) -->
+        <activity
+            android:name=".OTPActivity"
+            android:exported="true"
+            android:theme="@style/Theme.GreenMarket.NoActionBar" />
+
+        <!-- Add Product Activity - New added -->
+        <activity
+            android:name=".ui.home.AddProductActivity"
+            android:exported="true"
+            android:theme="@style/Theme.GreenMarket.NoActionBar" />
+
+        <!-- ✅ Category Activity - Added as requested -->
+        <activity
+            android:name=".ui.home.CategoryActivity"
+            android:exported="true"
+            android:theme="@style/Theme.GreenMarket.NoActionBar" />
+        <activity android:name=".ui.subcategories.CerealsSubcategoryActivity"
+            android:theme="@style/Theme.GreenMarket.NoActionBar"/>
+        <activity android:name=".ui.subcategories.FruitsSubcategoryActivity"
+            android:theme="@style/Theme.GreenMarket.NoActionBar" />
+        <activity android:name=".ui.subcategories.VegetablesSubcategoryActivity"
+            android:theme="@style/Theme.GreenMarket.NoActionBar" />
+        <activity android:name=".ui.subcategories.PulsesSubcategoryActivity"
+            android:theme="@style/Theme.GreenMarket.NoActionBar" />
+        <activity android:name=".ui.subcategories.SpicesSubcategoryActivity"
+            android:theme="@style/Theme.GreenMarket.NoActionBar" />
+        <activity android:name=".ui.subcategories.DryFruitsSubcategoryActivity"
+            android:theme="@style/Theme.GreenMarket.NoActionBar" />
+        <activity android:name=".ui.subcategories.SugarcaneSubcategoryActivity"
+            android:theme="@style/Theme.GreenMarket.NoActionBar" />
+        <activity android:name=".ui.subcategories.DairyProductsSubcategoryActivity"
+            android:theme="@style/Theme.GreenMarket.NoActionBar" />
+        <activity android:name=".ui.subcategories.EdibleOilsSubcategoryActivity"
+            android:theme="@style/Theme.GreenMarket.NoActionBar" />
+        <activity android:name=".ui.subcategories.SeedsSubcategoryActivity"
+            android:theme="@style/Theme.GreenMarket.NoActionBar" />
+        <activity android:name=".ui.subcategories.PlantsSubcategoryActivity"
+            android:theme="@style/Theme.GreenMarket.NoActionBar" />
+
+        <activity android:name=".ui.home.SettingsActivity"
+            android:theme="@style/Theme.GreenMarket.NoActionBar"/>
+
+        <activity android:name=".ui.home.AboutUsActivity"
+            android:theme="@style/Theme.GreenMarket.NoActionBar"/>
+
+        <activity android:name=".ui.home.TermsConditionsActivity"
+            android:theme="@style/Theme.GreenMarket.NoActionBar"/>
+
+        <activity android:name=".ui.home.ChangeLanguageActivity"
+            android:theme="@style/Theme.GreenMarket.NoActionBar"/>
+
+        <activity android:name=".ui.home.PrivacyPolicyActivity"
+            android:theme="@style/Theme.GreenMarket.NoActionBar"/>
+
+        <activity android:name=".ui.home.SelectAddressActivity"
+            android:theme="@style/Theme.GreenMarket.NoActionBar" />
+
+        <activity android:name=".ui.home.AddNewAddressActivity"
+            android:theme="@style/Theme.GreenMarket.NoActionBar" />
+
+        <activity android:name=".ui.products.SubcategoryProductsActivity" />
+
+        <activity android:name=".ui.products.StaticProductsActivity"
+            android:theme="@style/Theme.GreenMarket.NoActionBar" />
+
+        <activity android:name=".ui.products.ProductDetailActivity"
+            android:theme="@style/Theme.GreenMarket.NoActionBar" />
+
+        <activity android:name=".ui.products.OrderFormActivity" />
+        <activity android:name=".ui.home.HelpSupportActivity"/>
+
+        <activity android:name=".ui.products.PaymentActivity" />
+        <activity android:name=".ui.products.OrderSummaryActivity" />
+
+
+
+
+
+
+
+
+
+
+    </application>
+
+</manifest>

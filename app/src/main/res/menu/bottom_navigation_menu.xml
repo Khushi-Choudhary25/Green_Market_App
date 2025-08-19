@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/nav_crop_advisory"
+        android:icon="@drawable/ic_advisory"
+        android:title="Crop Advisory" />
+    <item
+        android:id="@+id/nav_weather_forecast"
+        android:icon="@drawable/ic_weather"
+        android:title="Weather Forecast" />
+    <item
+        android:id="@+id/nav_market_trends"
+        android:icon="@drawable/ic_trends"
+        android:title="Market Trends" />
+</menu>
